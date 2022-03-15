@@ -51,7 +51,7 @@ $bhavcopy_file = sprintf('cm%s%s%dbhav.csv.zip',
 	strtoupper($date->format('M')), 
 	$date->format('Y')
 );
-$bhavcopy_url = sprintf('https://www.nseindia.com/content/historical/EQUITIES/%d/%s/%s', 
+$bhavcopy_url = sprintf('https://archives.nseindia.com/content/historical/EQUITIES/%d/%s/%s', 
 	$date->format('Y'), 
 	strtoupper($date->format('M')), 
 	$bhavcopy_file
